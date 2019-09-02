@@ -1,0 +1,42 @@
+header{
+	    background: #3bc25c;
+    width: 27%;
+    height: 49px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    left: 0;
+    top: 0;
+    z-index: 97;
+    border: 1px solid #efefef;
+    margin: auto;
+    text-decoration: none;
+}
+.contaier{
+	height: 300px;
+    width: 27%;
+    margin: auto;
+    margin-top: -1px;
+	border: 1px solid #CCCCCC;
+	box-sizing: border-box;
+}
+.box{
+	    width: 75%;
+		margin: 20px auto;
+}
+.box span{
+	font-size: 15px;
+	
+}
+.box input{
+	height: 23px;
+	border: 1px solid #CCCCCC;
+}
+.footer input{
+	margin-left: 36%;
+    height: 35px;
+    width: 90px;
+    border-radius: 8px;
+    background-color: rgb(92,184,92);
+}

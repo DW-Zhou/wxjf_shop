@@ -1,0 +1,88 @@
+body{font-size: 13px;font-weight: 400;color:rgb(71,80,89);}
+.box{
+	width: 100%;
+	overflow: hidden;
+}
+.top{
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	height: 37px;
+}
+.top span {
+	display: block;
+	line-height: 37px;
+	margin-left: 10px;
+}
+.nav{
+	width: 100%;
+	height: 66px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	overflow: hidden;
+	display: flex;
+}
+.nav_item{
+	line-height: 66px;
+	margin-left: 20px;
+	width: 17%;
+}
+.nav_item input{
+	height: 26px;
+	width: 200px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+}
+.nav_search{
+	line-height: 66px;
+	margin-left: 20px;
+	width: 83%;
+}
+.nav_search input{
+	height: 30px;
+    border: none;
+    margin-left: 5px;
+    width: 65px;
+    border-radius: 4px;
+    background-color: #5cb85c;
+    color: #fff;
+    padding-left: 5px;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 11px 8px;
+}
+.t2{
+	width: 100%;
+}
+.t2 td{
+	width: 7.6923%;
+	height:55px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	border-right: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+	background-color: rgb(231,240,246);
+}
+.t3{
+	width: 100%;
+}
+.t3 td{
+	width: 7.6923%;
+	height:11px;
+	line-height: 11px;
+	border: 1px solid #CCCCCC;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	box-sizing: border-box;
+	border-top: none;
+	border-right: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-align: center;
+}
+.STYLE1 {
+	font-size: 13px;
+	font-weight: bold;
+}
+.STYLE2 {font-size: 12px;text-align: center;}

@@ -1,0 +1,101 @@
+﻿ html{	 font-size: 13.3333333vw;}
+ body{ font-size: 0.5rem;}
+
+ /* 头部部分*/
+.header{
+	width: 7.5rem;
+	background-color: #6b4397;
+	height: 3.68rem;
+	background: url(../img/bj.png);
+	background-size: cover;
+}
+.content{ width:6.8rem;overflow: hidden;margin: auto;}
+.header_content{width: 100%;height: 1.5rem;margin-top: 0.52rem;display: flex;}
+.item{height: 1.5rem;width: 33.3%;}
+.item_logo{width: 1.5rem;height: 1.5rem;border-radius: 50%;background-color: #FFFFFF;position: relative;}
+.item1_logo{height: 1.3rem;width: 1.3rem;background-color: aqua;border-radius: 50%;position: absolute;top:0.1rem;left: 0.1rem;}
+.item1_logo img{height: 1.3rem;width: 1.3rem;border-radius: 50%;}
+/* 名字部分 */
+
+.item2_name span{display: block; margin-top: 0.36rem;font-size: 0.4rem;color: #fff;}
+
+/* 二维码部分 */
+.item_3{position: relative;}
+.qr_code{width: 1.66rem;height:0.7rem; border: 0.02rem solid #FFFFFF;position: absolute;right: 0rem;top: 0.36rem;border-radius: 0.03rem;}
+.two_code{height: 0.36rem;width: 1.16rem;margin-left: 0.2rem;margin-top: 0.15rem;}
+/* 分隔 */
+.box{width: 7.5rem;height:2.8rem;background-color: #f3f3f7;}
+/* 积分部分 */
+.jifen_content{width: 6.8rem;height: 3.57rem;background-color: #FFFFFF; border-radius: 0.1rem; border:#C0C0C4 0.02rem solid;box-shadow: 0 0 0.02rem 0.02re #C0C0C4;position: absolute;left:0.3rem;top:2.6rem;z-index: 22;}
+.jifen_top{height: 1.4rem;display: flex;border-bottom: 0.03rem solid #eaebec}
+.jifen_logo{height:1.4rem;width: 50%;}
+.logo1{width: 2.48rem;height: 0.77rem;margin-top: 0.15rem;margin-left: 0.2rem;}
+.jifen_logo span{font-size: 0.33rem;margin-top: 0.55rem;display: block;margin-left: 1.8rem;color:#666666 ;}
+/* 积分部分 ----积分显示部分 */
+.jifen_shuzi{display: flex;height: 0.6rem;margin-top: 0.3rem;}
+.shuzi{width: 33.333333%;text-align: center;line-height: 0.6rem;color: #6b4397;font-size: 0.4rem;}
+.jifen_mean{display: flex;margin-top: 0.22rem;}
+.mean{width: 33.333333%;text-align: center;font-size: 0.3rem;font-family:"Microsoft YaHei";color: #666666;}
+/*签到部分==4块内容  */
+.four_box{height: 2.6rem;display: flex;}
+.fourbox_item{width: 50%;}
+.box1_top{height: 1rem;}
+.box1_top img{height: 0.86rem;width: 0.92rem;display: block;margin: 0.15rem auto;}
+.box1_bottom{text-align: center;}
+.box1_bottom span{font-size: 0.35rem;color:#8b8c8d ;}
+.box_bottom_1{text-align: center;}
+.box_bottom_1 span{font-size:0.25rem;color: #666666}
+/* 展示列表部分 */
+.s-side{width: 6.8rem;
+  bottom: 0;
+ margin: auto;
+  padding: 0.1rem;}
+.s-side .first {
+	padding: 0.1rem 0;
+	margin-top: 0.5rem;
+}
+.s-side .d-firstNav span {
+  display: inline-block;
+  margin-left: 0.1rem;
+  color: black;
+  font-size: 0.5rem;
+}
+.s-side .d-firstNav i.fr {
+  font-size: 0.25rem;
+  overflow: hidden;
+}
+.d-firstNav img{width: 0.47rem;height: 0.39rem;margin-right: 0.2rem;}
+.s-side .s-secondNav,
+.s-side .s-secondItem {
+  margin-left: 0.5rem;
+  margin-top: 0.1rem;
+	width: 2.7rem;
+    height: 0.64rem;
+    line-height: 0.5rem;
+    text-align: center;
+    margin-top: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #cfa3f9;
+    box-sizing: border-box;
+    float:left;
+}
+.s-secondNav:hover,.d-firstNav:hover{
+	background-color: #FFFFFF;cursor: pointer;
+}
+.s-side .d-secondDrop {
+  margin-left: 1rem;
+  margin-top: 0.1rem;
+}
+.iconRotate {
+  transform: rotate(90deg);
+  transition: transform 0.5s;
+}
+.s-firstDrop,
+.s-secondDrop {
+  display: none;
+	height: 1.37rem;
+}
+hr{height:0.02rem;border: none; background-color: #eaebec;}
+/* 隔离的盒子 */
+
+/* 个人信息注册 */

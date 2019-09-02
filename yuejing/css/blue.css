@@ -1,0 +1,124 @@
+@charset "gb2312";
+/*
+ * @Created: 20121023
+ * @Author : Kevin
+ * Used by womensafe, ycq, snsv
+ */
+/* fixed */
+.time_lag span, .time_lag a, .date_first, .date_select a, .date_detail li a:hover, .date_detail li a.aRed, .date_detail li a.aBlue, .date_detail li a.aYellow, .date_detail li a.aGreen, .date_detail li a em,.labor_info h3, .labor_l p, .mod_mw h3, .mw_reslut_detail em{background:url(../images/fixed_02.png) no-repeat;}
+/* mod_safe */
+.mod_safe{height:460px;background:#fcfeff;}
+.time_lag{height:27px;padding: 23px 32px;border-bottom:1px dashed #a2cdea;}
+.time_lag span, .time_lag input, .time_lag a{float:left;margin-top:4px;}
+.time_lag span{padding-left:20px;line-height:22px;background-position:-388px 2px;}
+.time_lag a.minus, .time_lag a.plus{width:25px;height:22px; cursor:pointer}
+.time_lag a.minus{background-position:-87px -47px;}
+.time_lag a.plus{background-position:-113px -47px;}
+.time_lag a:hover.minus{background-position:-87px -70px;}
+.time_lag a:hover.plus{background-position:-113px -70px;}
+.time_lag a.again{float:left;width:85px;height:27px;line-height:27px;margin:0 0 0 25px;font-size:12px;color:#fff;font-weight:100;text-align:center;background-position:0 -37px; cursor:pointer;}
+.time_lag a:hover.again{color:#fff;background-position:0 -65px;}
+.time_lag input{width:44px;height:20px;border-width:1px 0;border-style:solid;border-color:#8ec4e8;color:#348bcf;font:bold 14px/20px Arial;text-align:center;background:#fff;}
+.safe_detail{position:relative;margin-top:37px;height:323px;}
+.safe_calendar{position:absolute;top:0;left:50%;margin-left:-170px;width:338px;height:314px;padding:9px 0 0 3px;background:url(../images/bg_safe_calendar_blue.png) no-repeat;}
+.safe_calendar_left{left:29px;margin-left:0;}
+.safe_calendar_right{left:388px;margin-left:0;}
+.date_first{position:absolute;top:70px;left:-175px;display:inline-block;width:164px;height:35px;line-height:35px;color:#fff;font-size:12px;text-indent:20px;background-position:0 0;}
+.date_select{height:28px;line-height:22px;padding-right:3px;}
+.date_select span, .date_select a, .date_select b{float:left;}
+.date_select span{text-align:right;font-weight:bold;text-align:right;font-family:Arial;}
+.date_select span.year{width:52px;}
+.date_select span.month{width:36px;}
+.date_select b{padding-right:4px;}
+.date_select a{width:27px;height:22px;background-position:-140px -47px;}
+.date_select a:hover, .date_select a.current{background-position:-140px -70px;}
+.safe_calendar_right .date_select, .safe_calendar_left .date_select{text-align:center;}
+.safe_calendar_right .date_select a, .safe_calendar_left .date_select a{display:none;}
+.safe_calendar_right .date_select span, .safe_calendar_right .date_select b, .safe_calendar_left .date_select span, .safe_calendar_left .date_select b{float:none;width:auto;margin:0;padding:0;}
+.date_detail li{float:left;padding:1px 2px 2px 1px;width:45px;height:39px;line-height:39px;text-align:center;}
+.date_detail li.week{height:29px;line-height:29px;font-size:12px;}
+.date_detail li a{display:block;height:39px;font-size:16px;font-family:Arial;}
+.date_detail li a:hover{color:#333;text-decoration:none;background-position:-286px 0;}
+.date_detail li a:hover.aRed, .date_detail li a:hover.aGreen, .date_detail li a:hover.aBlue, .date_detail li a:hover.aYellow{position:relative;}
+.date_detail li a.aRed, .date_detail li a:hover.aRed{color:#DD000D;background-position:-286px 0;}
+.date_detail li a.aGreen, .date_detail li a:hover.aGreen{color:#187917;background-position:-332px 0;}
+.date_detail li a.aBlue, .date_detail li a:hover.aBlue{color:#fff;background-position:-286px -40px;}
+.date_detail li a.aYellow, .date_detail li a:hover.aYellow{color:#E55500;background-position:-333px -40px;}
+.date_detail li a em{display:none;}
+.date_detail li a:hover em{position:absolute;top:-18px;left:-6px;display:inline-block;width:57px;height:28px;line-height:23px;color:#fff;font-size:12px;text-align:center;}
+.date_detail li a.aRed em{background-position:-169px 0;}
+.date_detail li a.aGreen em{background-position:-227px 0;}
+.date_detail li a.aBlue em{background-position:-227px -29px;}
+.date_detail li a.aYellow em{background-position:-169px -29px;}
+.safe_calendar_tips{margin:12px 0 0 32px;}
+.safe_calendar_tips li{height:20px;line-height:20px;padding-top:16px;overflow:hidden;zoom:1;}
+.safe_calendar_tips li em{float:left;width:18px;height:18px;border-width:1px;border-style:solid;margin-right:14px;}
+.safe_calendar_tips li em.aRed{border-color:#FD7774;background:#FFCDCC;}
+.safe_calendar_tips li em.aGreen{border-color:#12D014;background:#CDFFCC;}
+.safe_calendar_tips li em.aBlue{border-color:#3FA4FE;background:#51CCEE;}
+.safe_calendar_tips li em.aYellow{border-color:#FD933B;background:#FFDCA4;}
+.yearLayer, .monthLayer{position:absolute;width:58px;border:1px solid #FDB5B6;border-top:0 none;z-index:20;background:#fff;}
+.yearLayer li, .monthLayer li{height:19px;border-top:1px solid #FDB5B6;text-align:center;}
+.yearLayer li a, .monthLayer li a{display:block;border:1px solid #fff;height:17px;line-height:17px;font-family:Arial;}
+.yearLayer li a:hover, .monthLayer li a:hover{color:#333;text-decoration:none;background:#FFCDCC;}
+.monthLayer{width:43px;}
+/* mod_labor */
+.mod_labor{background:#fcfeff;}
+.labor_cal{height:148px;padding-top:35px;background:url(../images/health/bg_labor_woman_blue.jpg) no-repeat 100% 0;}
+.labor_cal_detail{padding:0 0 16px 200px;}
+.labor_cal_detail span, .labor_cal_detail input, .select_outer{float:left;}
+.labor_cal_detail span{display:inline;line-height:33px;font-weight:bold;}
+.labor_cal_detail span.sp1{margin-right:15px; width:92px; display:inline-block; height:33px;}
+.labor_cal_detail span.sp2{margin:0 10px;}
+.select_outer{padding:5px 2px 6px;width:95px;border:2px solid #FFA73E;background:#fff;}
+.select_inner{width:95px;height:18px;line-height:18px;overflow:hidden;}
+.select_outer select{display:block;width:97px;height:20px;margin:-1px 0 0 -1px;font-size:16px;border:1px solid #fff;line-height:20px;overflow:hidden;outline:none;color:#656565;font-weight:bold;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.select_outer select{line-height:16px;}}
+.txt_time{padding:5px 6px 4px;width:87px;height:20px;line-height:20px;border:2px solid #FFA73E;color:#656565;font-size:16px;font-weight:bold;}
+.txt_time2{width:49px;}
+.btn_cal{width:123px;height:37px;border:0 none;cursor:pointer;background:url(../images/health/btns.png) 0 0 no-repeat; color:#fff; font-weight:bold; font-size:14px;}
+.btn_cal_hover{background-position:0 -41px;}
+.labor_cal_intro{padding:20px 60px;line-height:24px;color:#656565; border-bottom:1px solid #b8dcf5}
+.labor_cal_result{padding-top:10px;}
+.labor_cal_result p{margin:15px 0 0 252px;font-weight:bold;}
+.labor_cal_result p span{color:#FF8B00;font-size:16px;}
+.labor_info{color:#656565; padding:0 55px 20px;}
+.labor_info h3{margin:28px 0 8px;padding:0 0 7px 21px;border-bottom:1px dashed #a2cdea;color:#348bcf;font-weight:bold;background-position:-390px -35px;}
+.labor_info p{text-indent:2em;line-height:26px;}
+.labor_info p span{color:#ff8b00;}
+.labor_lr{display:inline;width:365px;margin-top:15px;}
+.labor_l{float:left;}
+.labor_r{float:right}
+.labor_lr span{display:block;height:6px;line-height:0;font-size:0;overflow:hidden;background:url(../images/health/bg_labor_lr_blue.png) no-repeat;}
+.labor_lr span.labor_lr_top{background-position:0 0;}
+.labor_lr span.labor_lr_bt{background-position:0 -6px;}
+.labor_lr_mid{border-left:2px solid #a3cdfb;border-right:2px solid #a3cdfb;background:#f3faff;zoom:1;}
+.labor_lr_mid h3{margin:0 0 5px;padding:4px 0 10px 31px;background-color:#fff;background-position:-379px -31px;}
+.labor_lr_mid p{text-indent:0;padding:0 10px 0 17px;}
+.labor_l p{line-height:32px;padding-left:17px;background-position:-389px -57px;}
+.labor_l p em{color:#E7659D;}
+.labor_r p{padding-top:3px;}
+.h205{height:205px;}
+.h178{height:178px;}
+.h141{height:141px;}
+/* mod_mw */
+.mod_mw{padding:25px 47px 40px;background:#fcfeff url(../images/health/bg_mw_blue.jpg) no-repeat 100% 0;}
+.mod_mw p, .mod_mw h6, .mod_mw dl{margin:0 10px;}
+.mod_mw p{line-height:24px;color:#656565;text-indent:2em;}
+.mod_mw h6{margin:0 -47px; height:58px; line-height:58px;color:#348bcf;font-weight:bold; text-indent:57px; border-bottom:1px solid #a2cdea;}
+.mod_mw h3{margin-top:22px;height:30px;line-height:30px;padding-left:25px;border-bottom:1px dashed #a2cdea;color:#348bcf;font-weight:bold;background-position:-385px -31px;}
+.mod_mw dt{font-weight:bold;margin-top:17px;}
+.mod_mw dd{padding:10px 0 0 22px;overflow:hidden;zoom:1;}
+.mod_mw dd input{width:13px;height:13px;margin:-3px 6px 0 0;vertical-align:middle;}
+.mod_mw dd label{float:left;width:150px;color:#656565;}
+.mw_cal{margin:28px 0 0 10px;}
+.mw_cal input{float:left;}
+.mw_cal a{float:left;margin:12px 0 0 20px;}
+.share{padding:20px 11px 0 0;}
+.mw_reslut_detail{clear:both;padding:32px 125px 0 105px;margin:0 auto;width:412px;height:75px;background:url(../images/health/bg_mw_result.png) no-repeat;}
+.mw_reslut_detail p{padding-top:10px;text-indent:0;}
+.mw_reslut_detail p span{color:#E6659D;font-weight:bold;}
+.mw_reslut_detail em{float:right;width:42px;height:53px;}
+.mw_reslut_detail em.boy{background-position:0 -163px;}
+.mw_reslut_detail em.girl{background-position:-43px -163px;}
+.pb20{ padding-bottom:20px;}

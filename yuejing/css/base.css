@@ -1,0 +1,18 @@
+@charset "gb2312";
+/*
+ * @Created: 20121023
+ * @Author : Kevin
+ */
+ body{ background:#f8f8f8;}
+ .main{ background:#fff;}
+ /* menu_xy */
+a{color:#333;}
+a:hover{color:#fd5151;}
+/* mod_2b */
+.mod_2b{border:1px solid #dcdcdc;}
+.mod_2b h2{color:#348bcf;}
+/* mod_1b */
+.mod_1b{border:1px solid #b8dcf5;}
+/* health */
+.health{padding:0 20px 20px;font-size:14px;}
+/* col_a */
